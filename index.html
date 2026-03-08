@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You ❤️</title>
+    <link rel="stylesheet" href="style.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <!-- Stars Background -->
+    <div class="stars" id="stars"></div>
+    
+    <!-- Floating Hearts Background -->
+    <div class="hearts-bg" id="hearts"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <h1 class="title">I Love You</h1>
+        <p class="subtitle">Forever and Always</p>
+        
+        <div class="big-heart" id="bigHeart">❤️</div>
+        
+        <div class="love-message">
+            <p>"Мартын 8 ны мэнд миний хайраа хайр нь зөндөө их хайртай шүү"</p>
+        </div>
+    </div>
+    
+    <!-- Background Music: autoplay muted to satisfy browser autoplay policies. -->
+    <audio id="bgMusic" loop autoplay muted>
+        <source src="ytmp3free.cc_stxlkin-so-bitter-instrumental-youtubemp3free.org.mp3" type="audio/mpeg">
+        <!-- fallback text for browsers that don't support <audio> -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- (hidden) music control button – kept for debugging or manual control -->
+    <button class="music-btn" id="musicBtn" title="Play/Pause Music" style="display:none;">
+        🎵
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
